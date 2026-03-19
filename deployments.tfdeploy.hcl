@@ -13,6 +13,7 @@ deployment "development" {
     default_tags = {
       Stack       = "learn-stacks-deploy-aws",
       Environment = "dev"
+      Demo        = "tag"  
     }
   }
 }
